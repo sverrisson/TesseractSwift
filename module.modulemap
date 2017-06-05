@@ -1,0 +1,11 @@
+module  TesseractLinux [system] {
+	header "/usr/include/capi.h"
+	link "ctesseract"
+	export *
+}
+
+module TesseractMac [system] {
+	header "/usr/local/include/capi.h"
+	link "ctesseract"
+	export *
+}
