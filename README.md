@@ -2,6 +2,15 @@
 Exposes the C-API's of Tesseract to a Swift app.
 Tesseract is an optical character recognition (OCR) open source library, released under the Apache License, Version 2.0: https://github.com/tesseract-ocr
 
+## Install
+Install first the tesseract library to the computer using Brew:
+```bash
+brew install tesseract --with-all-languages
+```
+if English is only needed, then use:
+```bash
+brew install tesseract
+```
 
 ## License
 
