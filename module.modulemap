@@ -1,11 +1,11 @@
 module  TesseractLinux [system] {
-	header "/usr/include/capi.h"
+	header "/usr/include/tesseract/capi.h"
 	link "ctesseract"
 	export *
 }
 
 module TesseractMac [system] {
-	header "/usr/local/include/capi.h"
+	header "/usr/local/include/tesseract/capi.h"
 	link "ctesseract"
 	export *
 }
