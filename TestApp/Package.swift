@@ -5,6 +5,6 @@ import PackageDescription
 let package = Package(
     name: "TestApp",
     dependencies: [
-        .Package(url: "https://github.com/sverrisson/TesseractSwift.git", majorVersion: 1)
+        .Package(url: "https://github.com/sverrisson/TesseractSwift.git", majorVersion: 0)
     ]
 )
